@@ -4,12 +4,12 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import TopBar from "./components/TopBar";
-import Galeri from "./pages/Galeri";
 import Home from "./pages/Home";
 
 import "./App.css";
 import Artikel from "./pages/Artikel/Artikel";
 import Berita from "./pages/Berita/Berita";
+import Galeri from "./pages/Galeri/Galeri";
 import Visi from "./pages/Visi";
 import Misi from "./pages/Misi";
 
@@ -25,7 +25,7 @@ function App() {
           <Route path="berita" element={<Berita />} />
           <Route path="visi" element={<Visi />} />
           <Route path="misi" element={<Misi />} />
-          <Route path="gallery" element={<Galeri />} />
+          <Route path="galeri" element={<Galeri />} />
         </Routes>
       </div>
     </div>

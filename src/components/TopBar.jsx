@@ -75,7 +75,7 @@ const TopBar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink className="" to="gallery">
+          <NavLink className="" to="galeri">
             Galeri
           </NavLink>
         </li>
