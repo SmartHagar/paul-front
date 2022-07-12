@@ -94,7 +94,10 @@ const TopBar = () => {
           </Link>
           <ul className="p-2 bg-base-200">
             <li>
-              <Link to="https//:">Visi</Link>
+              <Link to="https//:">Youtube</Link>
+              <Link to="https//:">Facebook</Link>
+              <Link to="https//:">Instagram</Link>
+              <Link to="https//:">Twiter</Link>
             </li>
           </ul>
         </li>
@@ -103,7 +106,7 @@ const TopBar = () => {
   };
 
   return (
-    <div className="navbar bg-base-100 shadow-lg sticky top-0 font-work">
+    <div className="navbar bg-base-100 shadow-lg sticky top-0 font-work z-50">
       <div className="lg:navbar-start shrink w-11/12">
         <div className="dropdown">
           <label tabIndex="0" className="btn btn-ghost lg:hidden">

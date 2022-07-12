@@ -4,10 +4,14 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import TopBar from "./components/TopBar";
-import Gallery from "./pages/Gallery";
+import Galeri from "./pages/Galeri";
 import Home from "./pages/Home";
 
 import "./App.css";
+import Artikel from "./pages/Artikel/Artikel";
+import Berita from "./pages/Berita/Berita";
+import Visi from "./pages/Visi";
+import Misi from "./pages/Misi";
 
 function App() {
   return (
@@ -17,7 +21,11 @@ function App() {
       <div className="mx-6 my-4 lg:mx-10 font-work">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="gallery" element={<Gallery />} />
+          <Route path="artikel" element={<Artikel />} />
+          <Route path="berita" element={<Berita />} />
+          <Route path="visi" element={<Visi />} />
+          <Route path="misi" element={<Misi />} />
+          <Route path="gallery" element={<Galeri />} />
         </Routes>
       </div>
     </div>

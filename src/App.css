@@ -1,4 +1,8 @@
 /** @format */
+
+@import url("animate.css");
+
+/** @format */
 @font-face {
   font-family: "Zilla Slab";
   src: url("./assets/font/Zilla_Slab/ZillaSlab-Bold.ttf");

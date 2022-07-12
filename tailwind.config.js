@@ -10,6 +10,12 @@ module.exports = {
       width: {
         128: "32rem",
       },
+      height: {
+        128: "32rem",
+      },
+      minHeight: {
+        "1/2": "70vh",
+      },
     },
   },
   daisyui: {
