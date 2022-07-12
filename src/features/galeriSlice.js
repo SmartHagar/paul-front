@@ -26,6 +26,9 @@ const galeriSlice = createSlice({
     [getGaleri.fulfilled]: (state, { payload }) => {
       return { ...state, galeri: payload };
     },
+    [getGaleri.rejected]: (state, { error }) => {
+      return { ...state, error };
+    },
   },
 });
 
